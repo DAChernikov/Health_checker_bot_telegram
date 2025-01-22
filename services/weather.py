@@ -1,7 +1,7 @@
 import os
 import requests
 
-OPENWEATHERMAP_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY", "a9b6800fa5d4032abeb9ca6b062cd037")
+OPENWEATHERMAP_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY", "YOUR_API_FROM_OpenWeatherMap_HERE")
 
 def get_temperature(city_name: str) -> float:
     """
