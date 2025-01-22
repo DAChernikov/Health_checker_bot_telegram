@@ -9,7 +9,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 from handlers import register_all_handlers
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8020383973:AAFwjNHZWpI0IdG47N2Z6wbLWGOf3O61qR0")
 
 async def main():
     logging.basicConfig(level=logging.INFO)
